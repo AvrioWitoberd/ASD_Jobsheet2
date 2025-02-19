@@ -1,4 +1,14 @@
 public class Mahasiswa04 {
+    public Mahasiswa04(){
+    }
+
+    public Mahasiswa04(String nm, String nim, double ipk, String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
+    
     String nama;
     String nim;
     String kelas;
@@ -30,5 +40,8 @@ public class Mahasiswa04 {
         }else {
             return "kinerja kurang";
         }
+
+
+        
     }
 }
